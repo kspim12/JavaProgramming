@@ -1,3 +1,5 @@
+package ch03.arithmetic;
+
 public class ArithmeticOperatorTest {
     public static void main(String[] args) {
         // 나누기와 나머지 연산자의 차이
