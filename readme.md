@@ -31,3 +31,11 @@ b = 20;
 System.out.println((a += 10) > 15 || (b -= 10) > 15);
 System.out.println("a = " + a + ", b = " + b);
 ```
+
+
+## 특이점
+            //왜 ??
+            // System.out.printf("test")
+            // int result = scanner.nextInt();
+            // test 가 input 받기 전에 출력이 안됨 ;; 
+            
