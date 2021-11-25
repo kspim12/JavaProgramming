@@ -39,3 +39,20 @@ System.out.println("a = " + a + ", b = " + b);
             // int result = scanner.nextInt();
             // test 가 input 받기 전에 출력이 안됨 ;; 
             
+5. 배열<br>
+5.1 배열의 기본<br>
+ 
+```
+    int[] point = new int[3];
+    int[] iArray1 = {100, 200};
+    int[] iArray2;
+    // iArray2 = {100, 200}; // 문법 오류
+    int[] iArray3 = new int[]{100, 200};
+    int[] iArray4;
+    iArray4 = new int[]{100, 200};
+```
+
+5.2 다차원 배열 <br>
+``` 
+int[][] arr2Dim = new int[2][3];
+```
