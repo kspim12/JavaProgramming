@@ -56,3 +56,32 @@ System.out.println("a = " + a + ", b = " + b);
 ``` 
 int[][] arr2Dim = new int[2][3];
 ```
+
+
+6. 클래스와 객체<br>
+```markdown
+클래스영역 
+    - Field 정보
+    - Method 정보
+    - Type 정보
+    - 상수 풀
+
+스택 영역 : 스레드별로 별도의 공간을 가진다. 
+힙 영역 : 여러 스레드가 공유한다.
+```
+
+``` 
+초기화블록
+int iv;
+static int cv;
+
+static{
+    System.out.println("클래스 초기화 블록 : static 멤버 변수에 대한 초기화");
+    cv = 100;
+}
+
+{
+    System.out.println("인스턴스 초기화 블록 : instance 멤버 변수에 대한 초기화");
+    iv = 100;
+}
+```
