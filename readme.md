@@ -85,3 +85,12 @@ static{
     iv = 100;
 }
 ```
+
+
+7. 클래스의 관계
+
+ - 상속관계 : is~a 관계
+ - subClass 는 sureClass 이다.
+ - spiderMan은 person 이다.
+ - 포함관계(interface) : has~a관계
+ - 
