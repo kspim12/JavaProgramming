@@ -11,4 +11,13 @@ public class SpiderMan2 extends Person{
             System.out.println("Person은 거미줄 발사 불가");
         }
     }
+
+    @Override
+    public void jump() {
+        if ( isSpider ) {
+            spider.jump();
+        } else {
+            System.out.println("뛰기");
+        }
+    }
 }
