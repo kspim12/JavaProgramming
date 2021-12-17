@@ -25,5 +25,6 @@ public class InstanceOfTest {
         //아래 메서드 호출은 runtime 오류를 발생시킨다.
 //        iot.badCasting();
         iot.goodCasting();
+
     }
 }
