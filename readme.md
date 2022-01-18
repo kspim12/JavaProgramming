@@ -120,3 +120,5 @@ static{
 8-3. Enum
 
 8-4. Annotation
+
+8-5. Generic
